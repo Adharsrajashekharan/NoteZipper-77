@@ -36,7 +36,7 @@ useEffect(() => {}, [userInfo]);
     <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
       <Container>
         <Link to="/">
-          <Navbar.Brand>Note Zipper</Navbar.Brand>
+          <Navbar.Brand>Create Notes</Navbar.Brand>
         </Link>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

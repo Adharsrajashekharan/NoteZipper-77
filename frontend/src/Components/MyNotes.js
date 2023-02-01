@@ -81,7 +81,7 @@ function MyNotes({ search }) {
           .reverse()
           .map((note) => (
             <Accordion defaultActiveKey="0">
-              <Card style={{ margin: 10 }} key={note._id}>
+              <Card style={{}} key={note._id}>
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
                     <Card.Header

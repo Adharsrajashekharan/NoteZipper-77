@@ -40,6 +40,7 @@ const ProfileScreen = ({ location}) => {
 
   const postDetails = (pics) => {
     setPicMessage(null);
+    console.log(pics)
     if (pics.type === "image/jpeg" || pics.type === "image/png") {
       const data = new FormData();
       data.append("file", pics);

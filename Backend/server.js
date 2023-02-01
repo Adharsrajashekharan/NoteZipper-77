@@ -6,7 +6,7 @@ var noteRoutes=require('./routes/noteRoutes')
 
 const dotenv=require('dotenv');
 const { notFound, errorHandler } = require("./Middleware/errorMiddleware");
-
+require('dotenv').config({ path: '../.env' });
 dotenv.config()
 connectDB()
 
